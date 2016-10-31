@@ -125,7 +125,7 @@ public class Details extends Activity {
                     try {
                         reader.close();
                     } catch (final IOException e) {
-                        Log.e("PlaceholderFragment", "Error closing stream", e);
+                      //  Log.e("PlaceholderFragment", "Error closing stream", e);
                     }
                 }
             }
@@ -143,8 +143,10 @@ public class Details extends Activity {
             tvname.setText(title);
             tvrating.setText(rating);
             ivposter.setImageBitmap(bitmap);
-            Log.i("json", s);
+           // Log.i("json", s);
         }
+        
+        //All log statements removed jff
     }
 }
 /*
