@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 String temp = et1.getText().toString();
                 i.putExtra("name",temp);
                 startActivity(i);
+                //system.out.println("Hello 123");
             }
         });
     }
